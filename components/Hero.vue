@@ -19,8 +19,12 @@
           retro, sometimes trash to treasure... always unique!
         </h3>
         <div class="flex mt-4 gap-4">
-          <PrimaryButton>Projects</PrimaryButton>
-          <SecondaryButton>About Us</SecondaryButton>
+          <NuxtLink to="/projects"
+            ><PrimaryButton>Projects</PrimaryButton></NuxtLink
+          >
+          <NuxtLink to="/about"
+            ><SecondaryButton>About Us</SecondaryButton></NuxtLink
+          >
         </div>
       </div>
     </div>

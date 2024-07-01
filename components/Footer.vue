@@ -11,7 +11,7 @@
       <p class="flex justify-center md:self-end pb-4">
         2024&#169; Lost & Found Creations
       </p>
-      <ul class="flex justify-center gap-8 text-2xl md:self-end pb-4">
+      <ul class="flex justify-center gap-6 md:gap-8 text-2xl md:self-end pb-4">
         <li class="hover:text-secondary ease-in-out duration-300">
           <NuxtLink to="/">Home</NuxtLink>
         </li>

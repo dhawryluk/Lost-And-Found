@@ -12,7 +12,7 @@
         <NuxtLink to="/">Home</NuxtLink>
       </li>
       <li class="hover:text-black ease-in-out duration-300">
-        <NuxtLink to="/products">Projects</NuxtLink>
+        <NuxtLink to="/projects">Projects</NuxtLink>
       </li>
       <li class="hover:text-black ease-in-out duration-300">
         <NuxtLink to="/about">About</NuxtLink>

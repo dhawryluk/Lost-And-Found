@@ -25,7 +25,7 @@
         class="flex flex-col gap-4 bg-accent1 p-6 text-2xl"
       >
         <li><NuxtLink to="/">Home</NuxtLink></li>
-        <li><NuxtLink to="/products">Projects</NuxtLink></li>
+        <li><NuxtLink to="/projects">Projects</NuxtLink></li>
         <li><NuxtLink to="/about">About</NuxtLink></li>
         <li><NuxtLink to="/contact">Contact</NuxtLink></li>
       </ul>
