@@ -9,12 +9,7 @@
           </p>
         </div>
         <div class="m-7">
-          <form
-            name="contact"
-            method="POST"
-            data-netlify="true"
-            onSubmit="submit"
-          >
+          <form @submit.prevent="submitForm">
             <div class="mb-6">
               <label for="name" class="block mb-2 text-sm text-black"
                 >Full Name</label
@@ -83,56 +78,56 @@
 </template>
 
 <script setup>
-// const router = useRouter();
+const router = useRouter();
 
-// const form = ref({
-//   access_key: "7a7b79ee-dc60-4ded-9191-93af3818b352",
-//   subject: "New Submission from Web3Forms",
-//   name: "",
-//   email: "",
-//   phone: "",
-//   message: "",
-// });
+const form = ref({
+  access_key: "7a7b79ee-dc60-4ded-9191-93af3818b352",
+  subject: "New Submission from Web3Forms",
+  name: "",
+  email: "",
+  phone: "",
+  message: "",
+});
 
-// const result = ref("");
-// const status = ref("");
+const result = ref("");
+const status = ref("");
 
-// const submitForm = async () => {
-//   result.value = "Please wait...";
-//   try {
-//     const response = await $fetch("https://api.web3forms.com/submit", {
-//       method: "POST",
-//       headers: { "Content-Type": "application/json" },
-//       body: form.value,
-//     });
+const submitForm = async () => {
+  result.value = "Please wait...";
+  try {
+    const response = await $fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: form.value,
+    });
 
-//     console.log(response); // You can remove this line if you don't need it
+    console.log(response); // You can remove this line if you don't need it
 
-//     result.value = response.message;
+    result.value = response.message;
 
-//     if (response.status === 200) {
-//       status.value = "success";
-//       router.push("/index");
-//     } else {
-//       console.log(response); // Log for debugging, can be removed
-//       status.value = "error";
-//     }
-//   } catch (error) {
-//     console.log(error); // Log for debugging, can be removed
-//     status.value = "error";
-//     result.value = "Something went wrong!";
-//   } finally {
-//     // Reset form after submission
-//     form.value.name = "";
-//     form.value.email = "";
-//     form.value.phone = "";
-//     form.value.message = "";
+    if (response.status === 200) {
+      status.value = "success";
+      router.push("/index");
+    } else {
+      console.log(response); // Log for debugging, can be removed
+      status.value = "error";
+    }
+  } catch (error) {
+    console.log(error); // Log for debugging, can be removed
+    status.value = "error";
+    result.value = "Something went wrong!";
+  } finally {
+    // Reset form after submission
+    form.value.name = "";
+    form.value.email = "";
+    form.value.phone = "";
+    form.value.message = "";
 
-//     // Clear result and status after 5 seconds
-//     setTimeout(() => {
-//       result.value = "";
-//       status.value = "";
-//     }, 5000);
-//   }
-// };
+    // Clear result and status after 5 seconds
+    setTimeout(() => {
+      result.value = "";
+      status.value = "";
+    }, 5000);
+  }
+};
 </script>
