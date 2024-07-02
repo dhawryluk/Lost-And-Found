@@ -24,21 +24,36 @@
         :class="!isMenuHidden ? 'block' : 'hidden'"
         class="flex flex-col gap-4 bg-accent1 p-6 text-2xl"
       >
-        <li><NuxtLink to="/">Home</NuxtLink></li>
-        <li><NuxtLink to="/projects">Projects</NuxtLink></li>
-        <li><NuxtLink to="/about">About</NuxtLink></li>
-        <li><NuxtLink to="/contact">Contact</NuxtLink></li>
+        <li class="hover:text-black ease-in-out duration-300">
+          <NuxtLink to="/">Home</NuxtLink>
+        </li>
+        <li class="hover:text-black ease-in-out duration-300">
+          <NuxtLink to="/projects">Projects</NuxtLink>
+        </li>
+        <li class="hover:text-black ease-in-out duration-300">
+          <NuxtLink to="/about">About</NuxtLink>
+        </li>
+        <li class="hover:text-black ease-in-out duration-300">
+          <NuxtLink to="/contact">Contact</NuxtLink>
+        </li>
       </ul>
     </div>
   </div>
 </template>
 
 <script setup>
+import { watch } from "vue";
+import { useRoute } from "vue-router";
+import { useState } from "#app";
+
 const isMenuHidden = useState("menuToggle", () => true);
+const route = useRoute();
 
 function toggleMenu() {
   isMenuHidden.value = !isMenuHidden.value;
 }
-</script>
 
-<style scoped></style>
+watch(route, () => {
+  isMenuHidden.value = true;
+});
+</script>
