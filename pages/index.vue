@@ -96,9 +96,15 @@
       Connect with Us
     </h2>
     <div class="flex gap-4 justify-center">
-      <icon name="fa6-brands:facebook" class="text-6xl text-accent1"></icon>
-      <icon name="fa6-brands:instagram" class="text-6xl text-accent1"></icon>
-      <icon name="fa6-solid:envelope" class="text-6xl text-accent1"></icon>
+      <NuxtLink to="https://www.facebook.com/lostandfoundfurniturecreations"
+        ><icon name="fa6-brands:facebook" class="text-6xl text-accent1"></icon
+      ></NuxtLink>
+      <NuxtLink to="https://www.facebook.com/lostandfoundfurniturecreations"
+        ><icon name="fa6-brands:instagram" class="text-6xl text-accent1"></icon
+      ></NuxtLink>
+      <NuxtLink to="/contact"
+        ><icon name="fa6-solid:envelope" class="text-6xl text-accent1"></icon
+      ></NuxtLink>
     </div>
   </div>
 </template>

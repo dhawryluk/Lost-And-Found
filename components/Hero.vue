@@ -1,7 +1,7 @@
 <template>
   <div class="h-[700px]">
     <div
-      class="bg-[url('/assets/images/heroImage.jpg')] h-full bg-center flex flex-col justify-center"
+      class="bg-[url('/assets/images/heroImage.jpg')] h-full bg-cover bg-center flex flex-col justify-center"
       alt="tree on a lake"
     >
       <div

@@ -39,32 +39,32 @@
       />
       <img
         src="/assets/images/bigBench.jpg"
-        alt="bench"
+        alt="big bench"
         class="h-[300px] w-[300px] hover:scale-105 ease-in-out duration-300 rounded-md hover:shadow-lg"
       />
       <img
         src="/assets/images/bigBench1.jpg"
-        alt="bench"
+        alt="big bench"
         class="h-[300px] w-[300px] hover:scale-105 ease-in-out duration-300 rounded-md hover:shadow-lg"
       />
       <img
         src="/assets/images/bigBench2.jpg"
-        alt="bench"
+        alt="big bench"
         class="h-[300px] w-[300px] hover:scale-105 ease-in-out duration-300 rounded-md hover:shadow-lg"
       />
       <img
         src="/assets/images/smBench.jpg"
-        alt="bench"
+        alt="small bench"
         class="h-[300px] w-[300px] hover:scale-105 ease-in-out duration-300 rounded-md hover:shadow-lg"
       />
       <img
         src="/assets/images/smBench1.jpg"
-        alt="bench"
+        alt="small bench"
         class="h-[300px] w-[300px] hover:scale-105 ease-in-out duration-300 rounded-md hover:shadow-lg"
       />
       <img
         src="/assets/images/smBench2.jpg"
-        alt="bench"
+        alt="small bench"
         class="h-[300px] w-[300px] hover:scale-105 ease-in-out duration-300 rounded-md hover:shadow-lg"
       />
     </div>
@@ -74,27 +74,27 @@
     <div class="w-full flex flex-wrap gap-8 justify-center pb-12">
       <img
         src="/assets/images/serving.jpg"
-        alt="bench"
+        alt="custom serving board"
         class="h-[300px] w-[300px] hover:scale-105 ease-in-out duration-300 rounded-md hover:shadow-lg"
       />
       <img
         src="/assets/images/board1.jpg"
-        alt="bench"
+        alt="custom serving board"
         class="h-[300px] w-[300px] hover:scale-105 ease-in-out duration-300 rounded-md hover:shadow-lg"
       />
       <img
         src="/assets/images/custom.jpg"
-        alt="bench"
+        alt="custom serving board"
         class="h-[300px] w-[300px] hover:scale-105 ease-in-out duration-300 rounded-md hover:shadow-lg"
       />
       <img
         src="/assets/images/custom1.jpg"
-        alt="bench"
+        alt="custom serving board"
         class="h-[300px] w-[300px] hover:scale-105 ease-in-out duration-300 rounded-md hover:shadow-lg"
       />
       <img
         src="/assets/images/custom2.jpg"
-        alt="bench"
+        alt="custom serving board"
         class="h-[300px] w-[300px] hover:scale-105 ease-in-out duration-300 rounded-md hover:shadow-lg"
       />
       <img
@@ -109,17 +109,37 @@
     <div class="w-full flex flex-wrap gap-8 justify-center pb-12">
       <img
         src="/assets/images/table.jpg"
-        alt="bench"
+        alt="table"
         class="h-[300px] w-[300px] hover:scale-105 ease-in-out duration-300 rounded-md hover:shadow-lg"
       />
       <img
         src="/assets/images/tubBoard.jpg"
-        alt="bench"
+        alt="bath tub board"
         class="h-[300px] w-[300px] hover:scale-105 ease-in-out duration-300 rounded-md hover:shadow-lg"
       />
       <img
         src="/assets/images/wine.jpg"
-        alt="bench"
+        alt="wine rack"
+        class="h-[300px] w-[300px] hover:scale-105 ease-in-out duration-300 rounded-md hover:shadow-lg"
+      />
+      <img
+        src="/assets/images/growthboard.jpeg"
+        alt="growth board"
+        class="h-[300px] w-[300px] hover:scale-105 ease-in-out duration-300 rounded-md hover:shadow-lg"
+      />
+      <img
+        src="/assets/images/growthboard1.jpeg"
+        alt="growth board"
+        class="h-[300px] w-[300px] hover:scale-105 ease-in-out duration-300 rounded-md hover:shadow-lg"
+      />
+      <img
+        src="/assets/images/mantle.jpeg"
+        alt="fireplace mantle"
+        class="h-[300px] w-[300px] hover:scale-105 ease-in-out duration-300 rounded-md hover:shadow-lg"
+      />
+      <img
+        src="/assets/images/winerack.jpeg"
+        alt="wine rack"
         class="h-[300px] w-[300px] hover:scale-105 ease-in-out duration-300 rounded-md hover:shadow-lg"
       />
     </div>
