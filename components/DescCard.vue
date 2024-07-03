@@ -1,6 +1,6 @@
 <template>
-  <div class="md:h-[500px] bg-secondary grid md:grid-cols-2">
-    <div class="m-auto p-4">
+  <div class="bg-secondary grid md:grid-cols-2 p-4">
+    <div class="m-auto">
       <slot name="proImage"></slot>
     </div>
     <div class="content-center w-5/6 m-auto">

@@ -1,6 +1,6 @@
 <template>
   <NuxtLoadingIndicator />
-  <div class="bg-white text-black">
+  <div class="text-black bg-primeColor font-bodyText">
     <Nav />
     <MobileNav />
     <NuxtPage />
